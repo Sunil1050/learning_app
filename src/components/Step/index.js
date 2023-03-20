@@ -5,10 +5,14 @@ import { Typography, Grid, Card, CardMedia, CardContent } from "@mui/material";
 import useStyles from "./style";
 
 const Step = () => {
+  //Get the state from store
   const courses = useSelector((state) => state.courses.courses)
+
+  //Get Id using `useParams` from react-router-dom to filter the required course details.
+
   const { id } = useParams();
   const course = courses.find((s) => s.id === parseInt(id));
-  const classes = useStyles();
+  const classes = useStyles(); //Custom CSS
 
   return (
     <Container sx={{ paddingTop: '10px', paddingBottom: '10px' }}>
@@ -28,7 +32,6 @@ const Step = () => {
               <Card sx={{ maxWidth: 345 }} key={course.id} className={classes.resourceCard}>
                 <CardMedia
                   component='iframe'
-                  // title={eachRes.type}
                   src={eachRes.url}
                 />
                 <CardContent>

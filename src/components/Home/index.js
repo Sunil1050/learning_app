@@ -7,9 +7,13 @@ import AssignmentTurnedInIcon from '@mui/icons-material/AssignmentTurnedIn';
 import useStyles from "./styles";
 
 function Home() {
+  //Get the state from redux store using `useSelector` hook.
   const courses = useSelector((state) => state.courses.courses)
   const dispatch = useDispatch();
-  const classes = useStyles();
+  const classes = useStyles(); //Custom styles
+
+  //1. This method helpful for updating the state by dispatching an action `visitedCourse`.
+  //2. This will mark the Course status as completed once student visits the course and learn required modules.
 
   const handleNavigation = stepId => {
     const updatedSteps = courses.map(item => {
@@ -21,6 +25,9 @@ function Home() {
     dispatch(visitedCourse(updatedSteps))
 
   };
+
+  //Click on `Learn More` button to visit the course details.
+  //Hover on icons in the Lesson card to see their statuses
 
   return (
     <Container sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100vh' }}>
