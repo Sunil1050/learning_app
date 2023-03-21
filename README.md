@@ -16,7 +16,11 @@
 </ul><ul>
 <li>Material UI</li>
 </ul><h2>Screenshots</h2>
-<hr><p><img src="https://res.cloudinary.com/dnzs8wzps/image/upload/v1679337471/learning_cards_ygadjw.png" alt=""></p><p><img src="https://res.cloudinary.com/dnzs8wzps/image/upload/v1679337473/resources_em9f9q.png" alt=""></p><h2>Setup</h2>
+<hr><p><img src="https://res.cloudinary.com/dnzs8wzps/image/upload/v1679394484/learning_cards_ntnjph.png" alt=""></p><p><img src="https://res.cloudinary.com/dnzs8wzps/image/upload/v1679394485/resources_c1eccj.png" alt=""></p><h2>Setup</h2>
+<hr><p>Live Demo</p><h5>Steps</h5><ul>
+<li><a href="https://learning-path-app.netlify.app/" target="_blank">Learning App</a>
+</li>
+</ul>
 <hr><p>Run below commands to view the Applciation</p><h5>Steps</h5><ul>
 <li>In the project direction, run <code>npm install</code> to install the dependencies</li>
 </ul><ul>
