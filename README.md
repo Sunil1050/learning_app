@@ -17,7 +17,7 @@
 <li>Material UI</li>
 </ul><h2>Screenshots</h2>
 <hr><p><img src="https://res.cloudinary.com/dnzs8wzps/image/upload/v1679394484/learning_cards_ntnjph.png" alt=""></p><p><img src="https://res.cloudinary.com/dnzs8wzps/image/upload/v1679394485/resources_c1eccj.png" alt=""></p><h2>Setup</h2>
-<hr><p>Live Demo</p><h5>Steps</h5><ul>
+<hr><p>Live Demo</p><h5>The project is live at</h5><ul>
 <li><a href="https://learning-path-app.netlify.app/" target="_blank">Learning App</a>
 </li>
 </ul>
