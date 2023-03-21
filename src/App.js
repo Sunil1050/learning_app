@@ -5,12 +5,12 @@ import Step from "./components/Step";
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/course/:id" element={<Step />} />
-      </Routes>
-    </Router>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/course/:id" element={<Step />} />
+        </Routes>
+      </Router>
   );
 };
 

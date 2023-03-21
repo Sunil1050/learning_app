@@ -57,7 +57,8 @@ const initialState = {
       ],
       isVisited: false
     }
-  ]
+  ],
+  progressPercent: 0
 };
 
 const coursesSlice = createSlice({
@@ -66,9 +67,12 @@ const coursesSlice = createSlice({
   reducers: {
     visitedCourse: (state, { payload }) => {
       state.courses = payload;
+    },
+    coursePercent: (state, {payload}) => {
+      state.progressPercent = payload
     }
   }
 })
 
-export const { visitedCourse } = coursesSlice.actions;
+export const { visitedCourse, coursePercent } = coursesSlice.actions;
 export default coursesSlice.reducer;
